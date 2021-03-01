@@ -1,0 +1,77 @@
+{
+    "common": {
+        "name": "smgd",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "smgd",
+        "titleLang": {
+            "en": "smgd",
+            "de": "smgd",
+            "ru": "smgd",
+            "pt": "smgd",
+            "nl": "smgd",
+            "fr": "smgd",
+            "it": "smgd",
+            "es": "smgd",
+            "pl": "smgd",
+            "zh-cn": "smgd"
+        },
+        "desc": {
+            "en": "get devices from smart-me API",
+            "de": "Holen Sie sich Smart-Me-Geräte",
+            "ru": "получить устройства smart-me",
+            "pt": "obter dispositivos inteligentes",
+            "nl": "krijg smart-me-apparaten",
+            "fr": "obtenir des appareils intelligents",
+            "it": "ottenere dispositivi smart-me",
+            "es": "obtener dispositivos inteligentes",
+            "pl": "zdobądź urządzenia smart-me",
+            "zh-cn": "获取智能设备"
+        },
+        "authors": [
+            "reto <reto@infinityflow.ch>"
+        ],
+        "keywords": [
+            "smart-me"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "smgd.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/rrongit/ioBroker.smgd/master/admin/smgd.png",
+        "readme": "https://github.com/rrongit/ioBroker.smgd/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "energy",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ]
+    },
+    "native": {
+        "username": "",
+        "password": "",
+        "abfrage_intervall": "300000"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
