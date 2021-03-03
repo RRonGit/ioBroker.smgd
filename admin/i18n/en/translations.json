@@ -1,5 +1,5 @@
 {
-    "abfrage_intervall": "read interval devices in ms, should not be less than 60000ms",
+    "abfrage_intervall": "read interval devices in ms",
     "password": "password from web.smart-me.com",
     "smgd adapter settings": "Adapter settings for smgd",
     "username": "username from web.smart-me.com"

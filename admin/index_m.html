@@ -117,13 +117,21 @@ onChange(false);
         <!-- For example columns with settings: -->
         
         <div class="row">
-          <div class="input-field col s12 m6 l4"><input id="username" class="value" type="text" /> <label for="username">username</label> <span class="translate">username</span></div>
-          <div class="input-field col s12 m6 l4"><input id="password" class="value" type="password" /> <label for="password">password</label> <span class="translate">password</span></div>
+            <div class="col s6 input-field">
+              <input id="username" class="value" type="text" />
+              <label for="username" class="translate">username</label>
+            </div>
+
+            <div class="col s6 input-field">
+              <input id="password" class="value" type="password" />
+              <label for="password" class="translate">password</label>
+            </div>
+
+            <div class="col s6 input-field">
+             <input id="abfrage_intervall" class="value" type="number" />
+             <label for="abfrage_intervall" class="translate">abfrage_intervall</label>
+            </div>
         </div>
-         <div class="row">
-         <div class="input-field col s12 m6 l4"><input id="abfrage_intervall" class="value" type="number" /> <label for="abfrage_intervall">read interval devices in ms, should not be less than 60000ms</label> <span class="translate">abfrage_intervall</span></div>
-        </div>
-    </div>
 
 </body>
 

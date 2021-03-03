@@ -97,8 +97,16 @@ function onReady() {
     }
   
  // Intervall der funciton main einstellen (States Update Intervall)
-  
-    let abfrage_intervall = adapter.config.abfrage_intervall;
+     
+    let abfrage_intervall = 60000;  
+     
+    abfrage_intervall = adapter.config.abfrage_intervall;
+    
+    if (abfrage_intervall < 60000) {
+    
+    adapter.log.info("Der Abfrage Intervall ist auf: " + abfrage_intervall + "ms eingestellt und damit zu klein gewählt, der Intervall wird nun auf 60000ms eingestellt");
+    abfrage_intervall = 60000;
+    }
 
     adapter.log.info("smart-me Abfrage Intervall wird auf: " + abfrage_intervall + " ms eingestellt"); 
 	

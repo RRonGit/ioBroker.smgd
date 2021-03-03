@@ -1,5 +1,5 @@
 {
-    "abfrage_intervall": "读取间隔",
+    "abfrage_intervall": "读取间隔设备（以毫秒为单位）",
     "password": "来自web.smart-me.com的密码",
     "smgd adapter settings": "smgd的适配器设置",
     "username": "来自web.smart-me.com的用户名"

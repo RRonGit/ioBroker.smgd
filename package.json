@@ -1,6 +1,6 @@
 {
   "name": "iobroker.smgd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "get smart-me devices",
   "author": {
     "name": "reto",

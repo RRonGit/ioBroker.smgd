@@ -14,17 +14,36 @@
 
 ## smgd adapter for ioBroker
 
-smgd stands for "smart-me get devices"
+###### smgd seht für "smart-me get devices"
 
-Der smgd Adapter liest die Geräte von web.smart-me.com.
-https://web.smart-me.com/
+Der smgd Adapter kann Gerätedaten, inkl. der entsprechende Werte, von der web.smart-me.com Plattform lesen.
+[smart-me](https://web.smart-me.com/)
 
-Der Lesevorgang erfolgt über die entsprechende API Schnittstelle.
-https://smart-me.com/swagger/ui/index
+Der Adapter erstellt die States im ioBroker und schreibt die Werte der Geräte in die entsprechende States.
+
+Die Daten werden über eine API Schnittstelle gelesen.
+[API smart-me](https://smart-me.com/swagger/ui/index)
+
+## Settings die im Adapter gemacht werden müssen:
+
+- "username" Benutzername von der web.smart-me.com Plattform. Es kann der Benutzername oder die Emailadresse verwendet werden.
+- "password" Passwort von der web.smart-me.com Plattform.
+- "Leseintervall der Geräte" Der Leseintervall wird in ms eingestellt und kann frei gewählt werden, Werte kleiner als 60000ms (1 Minute) werden nicht akzeptiert. Gibt man einen kleineren Wert als 60000ms ein, stellt der Adapter den Intervall auf 60000ms ein.
+
+## getestete Geräte:
+
+###### Typ und Anzahl der Geräte, die erfolgreich von der web.smart-me.com Plattform gelesen werden konnten:
+
+Typ:    Kamstrup Modul
+Anzahl: 1 oder 2
+[Kamstrup Modul](https://web.smart-me.com/project/kamstrup-modul/)
 
 ## Changelog
 
-### 0.0.1
+### 0.0.2 (03.03.2021)
+* (reto) Intervall nicht unter 1 Minute möglich, README.md, Sprachfiles und Adaptersettingspage angepasst
+
+### 0.0.1 (01.03.2021)
 * (reto) initial release
 
 ## License
