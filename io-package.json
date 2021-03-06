@@ -67,7 +67,9 @@
         "extIcon": "https://raw.githubusercontent.com/rrongit/ioBroker.smgd/master/admin/smgd.png",
         "readme": "https://github.com/rrongit/ioBroker.smgd/blob/master/README.md",
         "loglevel": "info",
-        "mode": "daemon",
+        "mode": "schedule",
+        "allowInit": true,
+        "schedule": "*/5 * * * *",
         "type": "energy",
         "compact": true,
         "connectionType": "cloud",
@@ -75,14 +77,13 @@
         "materialize": true,
         "dependencies": [
             {
-                "js-controller": ">=2.0.0"
+                "js-controller": ">=3.1"
             }
         ]
     },
     "native": {
-        "username": "",
-        "password": "",
-        "abfrage_intervall": "300000"
+        "username": "user",
+        "password": "password"
     },
     "objects": [],
     "instanceObjects": []
