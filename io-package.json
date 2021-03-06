@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "smgd",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "news": {
+            "0.0.3": {
+                "en": "The adapter now runs in the mode schedule, README.md adapted",
+                "de": "Der Adapter läuft jetzt im Modus Zeitplan, README.md angepasst",
+                "ru": "Адаптер теперь работает в режиме расписания, адаптированного README.md",
+                "pt": "O adaptador agora é executado no modo de programação, README.md adaptado",
+                "nl": "De adapter draait nu in het modusschema, README.md aangepast",
+                "fr": "L'adaptateur s'exécute maintenant dans le mode planning, README.md adapté",
+                "it": "L'adattatore ora viene eseguito nella modalità pianificazione, adattato README.md",
+                "es": "El adaptador ahora se ejecuta en el horario de modo, adaptado README.md",
+                "pl": "Adapter działa teraz w harmonogramie trybów dostosowanym do pliku README.md",
+                "zh-cn": "适配器现在以README.md适应的模式计划运行"
+            },
             "0.0.2": {
                 "en": "Interval not possible below 1 minute, README.md, language files and adapter settings page adjusted",
                 "de": "Intervall unter 1 Minute nicht möglich, README.md, Sprachdateien und Adapter-Einstellungsseite angepasst",
