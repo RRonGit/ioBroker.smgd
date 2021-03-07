@@ -40,6 +40,9 @@ Anzahl: 1 oder 2
 
 ## Changelog
 
+### 0.0.5 (07.03.2021)
+* (reto) Passwort wird verschlüsselt gespeichert
+
 ### 0.0.4 (07.03.2021)
 * (reto) Der Klassenname in der main.js wurde geändert
 
