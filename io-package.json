@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "smgd",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "news": {
+            "0.0.5": {
+                "en": "password is saved in encrypted form",
+                "de": "Passwort wird verschlüsselt gespeichert",
+                "ru": "пароль сохраняется в зашифрованном виде",
+                "pt": "a senha é salva de forma criptografada",
+                "nl": "wachtwoord wordt versleuteld opgeslagen",
+                "fr": "le mot de passe est enregistré sous forme cryptée",
+                "it": "la password viene salvata in forma crittografata",
+                "es": "la contraseña se guarda en forma encriptada",
+                "pl": "hasło jest zapisywane w postaci zaszyfrowanej",
+                "zh-cn": "密码以加密形式保存"
+            },
             "0.0.4": {
                 "en": "main.js class name changed",
                 "de": "Der Klassenname in der main.js wurde geändert",
@@ -105,6 +117,8 @@
             }
         ]
     },
+    "encryptedNative": ["password"],
+    "protectedNative": ["password"],
     "native": {
         "username": "user",
         "password": "password"
