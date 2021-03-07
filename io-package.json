@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "smgd",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "news": {
+            "0.0.4": {
+                "en": "main.js class name changed",
+                "de": "Der Klassenname in der main.js wurde geändert",
+                "ru": "имя класса main.js изменено",
+                "pt": "nome da classe main.js alterado",
+                "nl": "klassenaam main.js gewijzigd",
+                "fr": "Le nom de la classe main.js a changé",
+                "it": "Il nome della classe main.js è cambiato",
+                "es": "El nombre de la clase main.js cambió",
+                "pl": "Nazwa klasy main.js została zmieniona",
+                "zh-cn": "main.js类名称已更改"
+            },
             "0.0.3": {
                 "en": "The adapter now runs in the mode schedule, README.md adapted",
                 "de": "Der Adapter läuft jetzt im Modus Zeitplan, README.md angepasst",

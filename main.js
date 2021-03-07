@@ -7,7 +7,7 @@ const utils = require('@iobroker/adapter-core');
 const adapterName = require('./package.json').name.split('.').pop();
 const request = require('request');
 
-class modeshedule extends utils.Adapter {
+class smgd extends utils.Adapter {
 
     constructor(options) {
         super({
@@ -150,8 +150,8 @@ if (module.parent) {
     /**
      * @param {Partial<ioBroker.AdapterOptions>} [options={}]
      */
-    module.exports = (options) => new modeshedule(options);
+    module.exports = (options) => new smgd(options);
 } else {
     // otherwise start the instance directly
-    new modeshedule();
+    new smgd();
 }

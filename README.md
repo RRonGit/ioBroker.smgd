@@ -40,6 +40,9 @@ Anzahl: 1 oder 2
 
 ## Changelog
 
+### 0.0.4 (07.03.2021)
+* (reto) Der Klassenname in der main.js wurde geändert
+
 ### 0.0.3 (06.03.2021)
 * (reto) Adapter läuft jetzt im Mode schedule, README.md angepasst
 
