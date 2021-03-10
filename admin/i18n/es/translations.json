@@ -1,6 +1,7 @@
 {
-    "abfrage_intervall": "leer dispositivos de intervalo en ms",
-    "password": "contraseña de web.smart-me.com",
-    "smgd adapter settings": "Ajustes del adaptador para smgd",
-    "username": "nombre de usuario de web.smart-me.com"
+    "password": "contraseña",
+    "password from your web.smart-me.com account": "contraseña de su cuenta web.smart-me.com",
+    "smgd adapter settings": "Configuración del adaptador para smgd",
+    "username": "nombre de usuario",
+    "username or email from your web.smart-me.com account": "nombre de usuario o correo electrónico de su cuenta web.smart-me.com"
 }

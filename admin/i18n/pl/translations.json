@@ -1,6 +1,7 @@
 {
-    "abfrage_intervall": "odczytaj urządzenia z interwałem w ms",
-    "password": "hasło z web.smart-me.com",
+    "password": "hasło",
+    "password from your web.smart-me.com account": "hasło z konta web.smart-me.com",
     "smgd adapter settings": "Ustawienia adaptera dla smgd",
-    "username": "nazwa użytkownika z web.smart-me.com"
+    "username": "Nazwa Użytkownika",
+    "username or email from your web.smart-me.com account": "nazwa użytkownika lub adres e-mail z konta web.smart-me.com"
 }
