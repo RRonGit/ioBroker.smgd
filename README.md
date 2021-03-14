@@ -12,9 +12,7 @@
 
 **Tests:** ![Test and Release](https://github.com/rrongit/ioBroker.smgd/workflows/Test%20and%20Release/badge.svg)
 
-## smgd adapter for ioBroker
-
-###### smgd seht für "smart-me get devices"
+## smgd seht für "smart-me get devices"
 
 Der smgd Adapter kann Gerätedaten, inkl. der entsprechende Werte, von der web.smart-me.com Plattform lesen.
 [smart-me](https://web.smart-me.com/)
@@ -39,6 +37,9 @@ Anzahl: 1 oder 2
 [Kamstrup Modul](https://web.smart-me.com/project/kamstrup-modul/)
 
 ## Changelog
+
+### 0.0.7 (14.03.2021)
+* (reto) Variablendeklaration in main.js und README.md angepasst
 
 ### 0.0.6 (10.03.2021)
 * (reto) Adapterkonfigurationsseite angepasst

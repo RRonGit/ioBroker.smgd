@@ -26,13 +26,13 @@ class smgd extends utils.Adapter {
     async onReady() {
         
         let smartme;
-        let username = this.config.username;
-        let password =  this.config.password;
-        let base64auth = 'Basic ' + new Buffer(username + ':' + password).toString('base64');
-        let url = "https://smart-me.com:443/api/Devices";
-        let is_state_number = ["Serial", "DeviceEnergyType", "MeterSubType", "FamilyType", "ActivePower", "ActivePowerL1", "ActivePowerL2", "ActivePowerL3", "CounterReading", "CounterReadingT1", "CounterReadingT2", "CounterReadingT3", "CounterReadingT4", "CounterReadingImport", "CounterReadingExport", "Voltage", "VoltageL1", "VoltageL2", "VoltageL3", "Current", "CurrentL1", "CurrentL2", "CurrentL3", "ActiveTariff", "PowerFactor", "PowerFactorL1", "PowerFactorL2", "PowerFactorL3", "Temperature", "AnalogOutput1", "AnalogOutput2", "FlowRate"];
-        let is_state_string = ["Id", "Name", "ActivePowerUnit", "CounterReadingUnit", "ValueDate", "AdditionalMeterSerialNumber", "ChargingStationState"];
-        let is_state_boolean = ["SwitchOn", "SwitchPhaseL1On", "SwitchPhaseL2On", "SwitchPhaseL3On", "DigitalOutput1", "DigitalOutput2", "DigitalInput1", "DigitalInput2"];
+        const username = this.config.username;
+        const password =  this.config.password;
+        const base64auth = 'Basic ' + new Buffer(username + ':' + password).toString('base64');
+        const url = "https://smart-me.com:443/api/Devices";
+        const is_state_number = ["Serial", "DeviceEnergyType", "MeterSubType", "FamilyType", "ActivePower", "ActivePowerL1", "ActivePowerL2", "ActivePowerL3", "CounterReading", "CounterReadingT1", "CounterReadingT2", "CounterReadingT3", "CounterReadingT4", "CounterReadingImport", "CounterReadingExport", "Voltage", "VoltageL1", "VoltageL2", "VoltageL3", "Current", "CurrentL1", "CurrentL2", "CurrentL3", "ActiveTariff", "PowerFactor", "PowerFactorL1", "PowerFactorL2", "PowerFactorL3", "Temperature", "AnalogOutput1", "AnalogOutput2", "FlowRate"];
+        const is_state_string = ["Id", "Name", "ActivePowerUnit", "CounterReadingUnit", "ValueDate", "AdditionalMeterSerialNumber", "ChargingStationState"];
+        const is_state_boolean = ["SwitchOn", "SwitchPhaseL1On", "SwitchPhaseL2On", "SwitchPhaseL3On", "DigitalOutput1", "DigitalOutput2", "DigitalInput1", "DigitalInput2"];
 
         request({
         

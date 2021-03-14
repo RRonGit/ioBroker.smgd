@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "smgd",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "news": {
+            "0.0.7": {
+                "en": "Variable declaration in main.js and README.md adapted",
+                "de": "Variablendeklaration in main.js und README.md angepasst",
+                "ru": "Объявление переменных в main.js и README.md адаптировано",
+                "pt": "Declaração de variável em main.js e README.md adaptado",
+                "nl": "Variabele declaratie in main.js en README.md aangepast",
+                "fr": "Déclaration de variable dans main.js et README.md adaptée",
+                "it": "Dichiarazione di variabile in main.js e README.md adattata",
+                "es": "Declaración de variable en main.js y README.md adaptada",
+                "pl": "Zaadaptowano deklarację zmiennej w main.js i README.md",
+                "zh-cn": "修改了main.js和README.md中的变量声明"
+            },
             "0.0.6": {
                 "en": "Adapter configuration page adapted",
                 "de": "Adapterkonfigurationsseite angepasst",
