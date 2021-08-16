@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "smgd",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "news": {
+            "0.0.8": {
+                "en": "State write --> ACK true added",
+                "de": "Zustand schreiben --> ACK true hinzugefügt",
+                "ru": "Запись состояния -> добавлено ACK true",
+                "pt": "Gravação de estado -> ACK verdadeiro adicionado",
+                "nl": "Staat schrijven --> ACK waar toegevoegd",
+                "fr": "Écriture d'état --> ACK vrai ajouté",
+                "it": "Stato di scrittura -> ACK true aggiunto",
+                "es": "Escritura de estado -> ACK verdadero agregado",
+                "pl": "Zapis stanu --> ACK prawda dodana",
+                "zh-cn": "状态写入 --> ACK true 添加"
+            },
             "0.0.7": {
                 "en": "Variable declaration in main.js and README.md adapted",
                 "de": "Variablendeklaration in main.js und README.md angepasst",

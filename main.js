@@ -81,7 +81,7 @@ class smgd extends utils.Adapter {
 							native: {},
 							});
 			
-							await this.setStateAsync(smartme[array].Name + "."  + objekte, smartme[array][objekte]);
+							await this.setStateAsync(smartme[array].Name + "."  + objekte, smartme[array][objekte], true /*ACK*/);
 						}
 
 						if (is_state_string.includes ( objekte )) {
@@ -99,7 +99,7 @@ class smgd extends utils.Adapter {
 							native: {},
 							});
 			
-							await this.setStateAsync(smartme[array].Name + "."  + objekte, smartme[array][objekte]);
+							await this.setStateAsync(smartme[array].Name + "."  + objekte, smartme[array][objekte], true /*ACK*/);
 						}	
 						
 						if (is_state_boolean.includes ( objekte )) {
@@ -117,7 +117,7 @@ class smgd extends utils.Adapter {
 							native: {},
 							});
 			
-							await this.setStateAsync(smartme[array].Name + "."  + objekte, smartme[array][objekte]);
+							await this.setStateAsync(smartme[array].Name + "."  + objekte, smartme[array][objekte], true /*ACK*/);
 						}
 				    }
 			    }

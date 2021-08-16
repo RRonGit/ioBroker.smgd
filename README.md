@@ -38,6 +38,9 @@ Anzahl: 1 oder 2
 
 ## Changelog
 
+### 0.0.8 (16.08.2021)
+* (reto) State schreiben --> ACK true hinzugefügt
+
 ### 0.0.7 (14.03.2021)
 * (reto) Variablendeklaration in main.js und README.md angepasst
 
