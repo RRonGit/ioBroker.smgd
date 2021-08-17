@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "smgd",
-        "version": "0.0.8",
+        "version": "0.0.9",
         "news": {
+            "0.0.9": {
+                "en": "update github action --> Node-Version",
+                "de": "github-Aktion aktualisieren --> Node-Version",
+                "ru": "обновить действие github -> Node-Version",
+                "pt": "atualizar ação github -> Node-Version",
+                "nl": "update github-actie --> Knooppuntversie",
+                "fr": "mettre à jour l'action github -> Node-Version",
+                "it": "aggiorna l'azione github -> Node-Version",
+                "es": "actualizar la acción de github -> Versión de nodo",
+                "pl": "aktualizacja akcji github --> wersja węzła",
+                "zh-cn": "更新 github 操作 --> 节点版本"
+            },
             "0.0.8": {
                 "en": "State write --> ACK true added",
                 "de": "Zustand schreiben --> ACK true hinzugefügt",
